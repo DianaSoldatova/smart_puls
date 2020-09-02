@@ -1,0 +1,35 @@
+{
+  "name": "uberweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaSoldatova/uber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaSoldatova/uber/issues"
+  },
+  "homepage": "https://github.com/DianaSoldatova/uber#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+
+ "browserslist": [
+  "defaults",
+  "not IE 11",
+  "not IE_Mob 11",
+  "maintained node versions"
+]
+}
