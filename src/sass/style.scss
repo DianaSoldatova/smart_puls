@@ -7,15 +7,21 @@
     max-width: 950px;
     margin: 0 auto;
 }
+.slick-slide img{
+    width: 100%;
+}
 
+// @import 'base/mediaNew';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'base/media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/reviews';
 @import 'blocks/footer';
+@import 'base/_media';
+@import 'blocks/modal';
+@import 'blocks/pageup';

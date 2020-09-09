@@ -32,7 +32,7 @@
     }
     &__icon {
         color: #ffffff;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         width: 106px;
         text-align: center;
@@ -40,6 +40,8 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
+            width: 42px;
+            height: 40px;
         }
     }
     &__link {
