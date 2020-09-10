@@ -36,11 +36,35 @@
     }
     .carousel {
         .slick-dots {
-        
+        text-align: center;
         display: flex;
         justify-content: center;
-        list-style-type: none;
+        list-style: none;
         }
+        .slick-dots {
+            button {
+                background: $main-color;
+                /* border: none; */
+                border-radius: 50%;
+                height: 15px;
+                width: 15px;
+                margin: 15px;
+                outline: none; 
+                font-size: 0;
+
+        } 
+        }
+        .slick-active {
+            button {
+                background-color: rgb(53, 29, 29);
+            }
+        }
+        
+        
+        
+
+       
+        
     }
     .consultation {
         min-height: 550px;
@@ -353,6 +377,19 @@
 
         
         
+    }
+    .carousel {
+        .slick-dots {
+            button {
+               
+               
+                height: 10px;
+                width: 10px;
+                margin: 10px;
+                
+
+        } 
+        }
     }
 }   
 

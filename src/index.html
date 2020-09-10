@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
 </head>
@@ -52,7 +53,7 @@
             <h2 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__blocks">
                 <div class="advantages__block ">
-                    <img src="icon/cup.png" alt="Кубок">
+                    <img src="icon/cup_1.png" alt="Кубок">
                     <div class="advantages__descr">
                         <div class="advantages__subheader">Делимся опытом</div>
                     <div class="advantages__text">Наши сотрудники всегда готовы поделиться своим опытом, 
@@ -60,7 +61,7 @@
                     </div>
                 </div>
                 <div class="advantages__block">
-                    <img src="icon/heart.png" alt="Сердце">
+                    <img src="icon/heart.png" alt="Сердце" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__descr">
                         <div class="advantages__subheader">Заботимся о здоровье</div>
                     <div class="advantages__text">Мы работаем для того, 
@@ -94,7 +95,7 @@
             </form>
         </div>
     </section>
-    <section class="carousel">
+    <div class="carousel">
        <div class="container">
         
         <div class="carousel__inner">
@@ -109,7 +110,7 @@
             </div>
           </div>
        </div>
-    </section>
+    </div>
     <section class="catalog">
         <div class="container">
             <h2 class="catalog__header"> Каталог пульсометров </h2>
@@ -119,7 +120,7 @@
                 <li class="catalog__tab"><div>Для триатлона</div></li>
             </ul>
             <div class="catalog__content catalog__content_active">
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" >
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -152,7 +153,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -185,7 +186,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.2s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -218,7 +219,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.4s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -251,7 +252,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.6s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -284,42 +285,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item__wrapper">
-                    <div class="catalog-item__content catalog-item__content_active">
-                        <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
-                        <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
-                        <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                        <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                    </div>
-                    <ul class="catalog-item__list">
-                        <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
-                         </li>
-                         <br>
-                        <li> Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
-                        </li>
-                        <br>
-                        <li>Также Вы увидите информацию о расходе калорий за тренировку;
-                         </li>
-                         <br>
-                        <li>Вы сможете посмотреть данные по 10 тренировкам.
-                         </li>
-                         <a href="#" class="catalog-item__back">назад</a>
-                    </ul>
-                    </div>
-                    <hr>
-                    <div class="catalog-item__footer">
-                        <div class="catalog-item-prices">
-                            <div class="catalog-item__old-price">4 750 руб.</div>
-                            <div class="catalog-item__price">4 500 руб.</div>
-
-                        </div>
-                        <button class="button button_mini">КУПИТЬ</button>
-                    </div>
-                </div>
-            </div>
-            <div class="catalog__content">
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.8s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -354,7 +320,7 @@
                 </div>
             </div>
             <div class="catalog__content">
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -387,7 +353,9 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -420,7 +388,40 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.2s">
+                    <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                        <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                        <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                         </li>
+                         <br>
+                        <li> Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <br>
+                        <li>Также Вы увидите информацию о расходе калорий за тренировку;
+                         </li>
+                         <br>
+                        <li>Вы сможете посмотреть данные по 10 тренировкам.
+                         </li>
+                         <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item-prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item animate__animated animate__fadeInBottomRight wow" data-wow-duration="1s" data-wow-delay = "1.4s">
                     <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
                         <img src="img/smart_block.jpg" alt="Пульсометр" class="catalog-item__img">
@@ -460,7 +461,7 @@
         <div class="container">
             <h2 class="reviews__header">отзывы клиентов</h2>
             <div class="reviews__blocks">
-                <div class="reviews__block">
+                <div class="reviews__block animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="icon/irina.png" alt="ирина">
                     <div class="reviews__descr">
                       <div class="reviews__title">Ирина Иванченко 
@@ -474,7 +475,7 @@
                         Спасибо, RunSmart!  </div>
                     </div>
                 </div>
-                <div class="reviews__block">
+                <div class="reviews__block animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="icon/ivan.png" alt="иван">
                     
                     <div class="reviews__descr">
@@ -487,7 +488,7 @@
                         С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                     </div>
                 </div>
-                <div class="reviews__block">
+                <div class="reviews__block animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="icon/julia.png" alt="Юля">
                      <div class="reviews__descr">
                       <div class="reviews__title">Юлия Дашкина
@@ -548,11 +549,12 @@
     <a href="#up" class="pageup"><img src="icon/chevron-up-solid.svg" alt="якорь" ></a>
     
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

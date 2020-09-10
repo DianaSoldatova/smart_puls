@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
-        // adaptiveHeight: true,
+        adaptiveHeight: true,
+        
         prevArrow: '<button type="button" class="slick-prev"><img src="icon/left.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icon/right.png"></button>',
         responsive: [
@@ -9,7 +10,8 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                     dots: true,
-                    arrows: false
+                    arrows: false,
+                    
                 }
             }
         ]
@@ -112,12 +114,13 @@ $(document).ready(function(){
     });
  // Для плавного скроллинга (взятый с сайта)
    
-    $("a[href^='#']").click(function(){
+    $("a[href^=#up]").click(function(){
             const _href = $(this).attr("href");
             $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
             return false;
     });
-
+//   для файла анимации wow
+    new WOW().init();
 
 });
 
